@@ -1,0 +1,11 @@
+{
+  "name": "jinns",
+  "private": true,
+  "type": "module",
+  "description": "One localhost hub for every app folder in Jinns",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs --open",
+    "test": "node --test test.mjs"
+  }
+}

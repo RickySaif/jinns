@@ -1,0 +1,19 @@
+# Only Jinns itself is tracked. Every other folder in here is someone's app, so it stays out.
+/*/
+!/_jinns/
+
+# Jinns' state on this machine (ports, custom commands, Claude sessions)
+_jinns/jinns.json
+_jinns/.runtime/
+
+# Installed dependencies and tool output inside app folders
+node_modules/
+.playwright-mcp/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Claude Code settings
+.claude/

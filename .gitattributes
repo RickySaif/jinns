@@ -1,0 +1,8 @@
+# Keep script line endings right on every OS, whatever git's autocrlf setting is.
+* text=auto
+*.sh      text eol=lf
+*.command text eol=lf
+*.mjs     text eol=lf
+*.cmd     text eol=crlf
+*.bat     text eol=crlf
+*.ps1     text eol=crlf
